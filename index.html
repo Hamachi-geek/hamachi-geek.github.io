@@ -38,6 +38,8 @@
 function discord(){
   ret = confirm("Discordに移動します。よろしいですか？");
   if (ret == true){
+    window.onload = function () {
+      new Clipboard('.discord');
     location.href = "https://discordapp.com";
   }
 }
