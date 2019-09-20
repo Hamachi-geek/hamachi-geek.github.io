@@ -26,23 +26,13 @@
 
 <button class="twitter" onclick="window.open('https://www.twitter.com/hamachi_geek')">Twitter (@hamachi_geek)</button>
 <button class="instagram" onclick="window.open('https://www.instagram.com/hamachi183/')">Instagram</button>
-<button class="discord"  onclick="discord()" data-clipboard-text="#7049">Discord #7049 (WATANABE)</button>
+<button class="discord"  onclick="discord()" data-clipboard-text="#7049">Discord #7049 (タップでコピー)</button>
 <button class="github" onclick="window.open('https://www.github.com/hamachi-geek/')">GitHub</button>
 <button class="googleplus" onclick="window.open('https://www.plus.google.com/hamadroid/')">Google+</button>
 </body>
 
 <!--load clipboard.js-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
-
-<!--dialog_discord-->
-<script> 
-function discord(){
-  ret = confirm("Discordに移動します。よろしいですか？");
-  if (ret == true){
-    location.href = "https://discordapp.com";
-  }
-}
-</script>
 
 <!--discord_clipboard-->
 <script>
