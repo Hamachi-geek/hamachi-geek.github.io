@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HamaDroid.io</title>
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-    <link rel="stylesheet" href="./css/stylesheet.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ワイのホームページ!!!</title>
+  <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
-
-<!--title-->
-<h1 id="title">hamachi_geek.io</h1>
-<h3 id="bio">これがワイのホームペジや!!!</h3>
+<body>
+  <!--title-->
+<a class="title" style="text-decoration:none;" href="index.html">hamachi_geek.github.io</a>
+<h3 class="bio">これがワイのホームペジや!!!</h3>
 
 <!--pages-->
-<a class="blog" href="https://hamachigadget.wordpress.com/">My Blog</a>
-<a id="twitter" href="https://twitter.com/hamachi_geek">Twitter (@hamachi_geek)</a>
+<button class="blog" onclick="window.open('https://hamachigadget.wordpress.com/')">My Blog</button>
+<button class="twitter" onclick="window.open('https://twitter.com/hamachi_geek')">Twitter (@hamachi_geek)</button>
 
 <!--aboutme-->
-<h2 id="aboutme">あばうとみー</h2>
+<h2 class="aboutme">あばうとみー</h2>
 <p>大阪の高校生。</p>
 <p>英語とバイクとガジェットと唐揚げとサイゼの全メニュー大好き。</p>
 
 <!--contacts-->
 <h2>Contacts</h2>
-<a id="twitter1" href="https://twitter.com/hamachi_geek">Twitter (@hamachi_geek)</a>
-<a id="instagram" href="https://www.instagram.com/hamachi183/">Instagram</a>
-<p id="discord">Discord #7049</p>
+
+<button class="twitter" onclick="window.open('https://www.twitter.com/hamachi_geek')">Twitter (@hamachi_geek)</button>
+<button class="instagram" onclick="window.open('https://www.instagram.com/hamachi183/')">Instagram</button>
+<button class="discord"  onclick="discord()" data-clipboard-text="#7049">Discord #7049 (WATANABE)</button>
+
+</body>
+
+<!--load clipboard.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
+<!--dialog_discord-->
+<script> 
+function discord(){
+  ret = confirm("Discordに移動します。よろしいですか？");
+  if (ret == true){
+    location.href = "https://discordapp.com";
+  }
+}
+</script>
+
+<!--discord_clipboard-->
+<script>
+  window.onload = function () {
+      new Clipboard('.discord');
+  };
+  </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148007073-1"></script>
@@ -34,3 +58,5 @@
   gtag('js', new Date());
   gtag('config', 'UA-148007073-1');
 </script>
+
+</html>

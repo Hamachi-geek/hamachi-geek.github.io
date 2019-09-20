@@ -1,11 +1,27 @@
+.title{
+    background-color: #3498db;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 650px;
+}
+
 .twitter {
-    color :#55acee;
+    color: white;
+    background-color: #55acee;
     font-size:18px;
     font-weight:bold;
 }
 
+.instagram{
+    color:white;
+    background-color: #e4405f;
+    font-size:18px;
+    font-weight:bold;
+}
 .discord {
-    color:#7289DA;
+    color: white;
+    background-color:#7289DA;
     font-size:18px;
     font-weight:bold;
 }
