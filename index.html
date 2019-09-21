@@ -7,28 +7,37 @@
   <title>ワイのホームページ!!!</title>
   <link rel="stylesheet" href="./css/stylesheet.css">
 </head>
-<body>
+<body class="body">
+  
   <!--title-->
-<a class="title" style="text-decoration:none;" href="index.html">hamachi_geek.github.io</a>
-<h3 class="bio">これがワイのホームページや!!!</h3>
+<div class="title">
+<a class="title_text" style="text-decoration:none;" href="index.html">hamachi_geek.github.io</a>
+<p class="bio">これがワイのホームページや!!!</p>
+</div>
 
-<!--pages-->
-<button class="blog" onclick="window.open('https://hamachigadget.wordpress.com/')">My Blog</button>
-<button class="twitter" onclick="window.open('https://twitter.com/hamachi_geek')">Twitter (@hamachi_geek)</button>
-
-<!--aboutme-->
+  <!--aboutme-->
 <h2 class="aboutme">あばうとみー</h2>
-<p>大阪の高校生。</p>
-<p>英語とバイクとガジェットと唐揚げとサイゼの全メニュー大好き。</p>
+<ul>
+  <li>大阪の高１</li>
+  <li>バイクとかガジェットとかサイゼとかいろいろ好き</li>
+</ul>
 
 <!--contacts-->
+<div class="contact">
+
 <h2>Contacts</h2>
 
 <button class="twitter" onclick="window.open('https://www.twitter.com/hamachi_geek')">Twitter</button>
 <button class="instagram" onclick="window.open('https://www.instagram.com/hamachi183/')">Instagram</button>
 <button class="discord"  onclick="discord()" data-clipboard-text="#7049">Discord #7049 (タップでコピー)</button>
 <button class="github" onclick="window.open('https://www.github.com/hamachi-geek/')">GitHub</button>
+<button class="blog" onclick="window.open('https://hamachigadget.wordpress.com/')">My Blog</button>
 <button class="googleplus" onclick="window.open('https://www.plus.google.com/hamadroid/')">Google+</button>
+
+</div>
+
+<!--about_page-->
+<a class="about_page" href="about_page.html">About This Page</a>
 </body>
 
 <!--load clipboard.js-->
@@ -42,12 +51,13 @@
   </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148007073-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148007073-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'UA-148007073-1');
+
+  gtag('config', 'UA-148007073-2');
 </script>
 
 </html>

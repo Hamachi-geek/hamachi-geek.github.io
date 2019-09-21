@@ -1,10 +1,20 @@
-.title{
-    background-color: #3498db;
-    color:white;
-    text-align: center;
-    width: 100%;
+.body{
+    background-color:#39AEED;
 }
 
+.title{
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+}
+.title_text{
+     color:black;
+}
+.bio{
+    color:black;
+    font-size: 30px;
+}
 .blog{
     color: white;
     background-color: #21759b;
@@ -41,4 +51,7 @@
     background-color: #dd4b39;
     font-size:18px;
     font-weight:bold;
+}
+.about_page{
+    text-align: end;
 }
