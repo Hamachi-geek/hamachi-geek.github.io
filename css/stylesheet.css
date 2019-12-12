@@ -1,4 +1,8 @@
-.body{
+.index{
+    background-color:#39AEED;
+}
+
+.about{
     background-color:#39AEED;
 }
 
@@ -7,14 +11,17 @@
     width: 100%;
     background-size: cover;
 }
+
 .title_text{
     color:black;
 }
+
 .bio{
     color:black;
     font-size: 20px;
     text-align: center;
 }
+
 .blog{
     color: white;
     background-color: #21759b;
@@ -22,6 +29,7 @@
     font-weight:bold;
     background-size: 36px;
 }
+
 .twitter {
     color: white;
     background-color: #55acee;
@@ -37,6 +45,7 @@
     font-weight:bold;
     background-size: 36px;
 }
+
 .peing{
     color: white;
     background-color:#5eb9ba;
@@ -44,6 +53,7 @@
     font-weight: bold;
     background-size: 36px;
 }
+
 .discord {
     color: white;
     background-color:#7289DA;
@@ -51,6 +61,7 @@
     font-weight:bold;
     background-size: 36px;
 }
+
 .github{
     color: white;
     background-color: #333;
@@ -58,10 +69,15 @@
     font-weight:bold;
     background-size: 36px;
 }
+
 .googleplus{
     color: white;
     background-color: #dd4b39;
     font-size:18px;
     font-weight:bold;
     background-size: 36px;
+}
+
+.LastChanged{
+    font-size: 3px;
 }
