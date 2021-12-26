@@ -1,9 +1,9 @@
 .index{
-    background-color:#39AEED;
+    background-color:#b3adad;
 }
 
 .about{
-    background-color:#39AEED;
+    background-color:#b3adad;
 }
 
 .title{
@@ -22,41 +22,25 @@
     text-align: center;
 }
 
-.blog{
-    color: white;
-    background-color: #21759b;
-    font-size:18px;
-    font-weight:bold;
-    background-size: 36px;
+.Day1 {
+    background-color:#F25022;
 }
 
-.twitter {
-    color: white;
-    background-color: #55acee;
-    font-size:18px;
-    font-weight:bold;
-    background-size: 36px;
+.Day2{
+    background-color: #7FBA00;
+}
+
+.Day3{
+    background-color: #00A4EF;
+}
+
+.Day4{
+    background-color: #FFB900;
 }
 
 .instagram{
     color:white;
     background-color: #e4405f;
-    font-size:18px;
-    font-weight:bold;
-    background-size: 36px;
-}
-
-.peing{
-    color: white;
-    background-color:#5eb9ba;
-    font-size:18px;
-    font-weight: bold;
-    background-size: 36px;
-}
-
-.discord {
-    color: white;
-    background-color:#7289DA;
     font-size:18px;
     font-weight:bold;
     background-size: 36px;
