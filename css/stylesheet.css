@@ -62,6 +62,22 @@
     background-size: 36px;
 }
 
+.twitter{
+    color: white;
+    background-color: #1DA1F2;
+    font-size: 18px;
+    font-weight: bold;
+    background-size: 36px;
+}
+
+.mastdon{
+    color: white;
+    background-color: #8f6c74;
+    font-size: 18px;
+    font-weight: bold;
+    background-size: 36px;
+}
+
 .counter_1{
     
 }
