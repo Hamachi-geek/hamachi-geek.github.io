@@ -78,6 +78,11 @@
     background-size: 36px;
 }
 
+ul{
+    text-align: left;
+    list-style: none;
+}
+      
 .LastChanged{
     font-size: 12px;
 }
