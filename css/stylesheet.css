@@ -1,41 +1,56 @@
+@font-face {
+    font-family: 'LINE_Seed_Regular'; 
+    src: url('../font/LINESeedJP_OTF_Rg.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'LINE_Seed_Bold'; 
+    src: url('../font/LINESeedJP_OTF_Bd.woff2') format('woff2');
+  }
+
 .index{
     background-color: rgb(158, 249, 255);
 }
 
 .about{
-    background-color:#b3adad;
+    background-color: rgb(158, 249, 255);
+    font-family: 'LINE_Seed_Regular';
 }
 
 .title{
     text-align: center;
     width: 100%;
     background-size: cover;
+    background-color:rgb(158, 249, 255);
 }
 
 .title_text{
     color:black;
+    font-family: 'LINE_Seed_Bold';
+}
+
+.title_item{
+    color:black;
+    font-family: 'LINE_Seed_Bold';
 }
 
 .bio{
     color:black;
     font-size: 20px;
     text-align: center;
+    font-family: 'LINE_Seed_Regular';
 }
 
-.Day1 {
-    background-color:#F25022;
+.aboutme{
+    font-family: 'LINE_Seed_Regular';
 }
 
-.Day2{
-    background-color: #7FBA00;
+.equipments{
+    font-family: 'LINE_Seed_Regular';
 }
 
-.Day3{
-    background-color: #00A4EF;
-}
-
-.Day4{
-    background-color: #FFB900;
+.about_page{
+    font-family: 'LINE_Seed_Regular';   
 }
 
 .instagram{
