@@ -23,8 +23,7 @@ ul {
 }
 
 button {
-    display: inline-flex;
-    flex-direction: column;  
+  padding: 10px 10px;
 }
 
 .introduce{
